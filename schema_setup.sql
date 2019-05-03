@@ -9,3 +9,6 @@ CREATE TABLE burgers(
     eaten BOOLEAN DEFAULT false,
     PRIMARY KEY (id)
 );
+
+INSERT INTO burgers (name, type, topping, sauce) VALUES ('bob', 'salmon', 'lettuce', 'mayo');
+INSERT INTO burgers (name, type, topping, sauce, eaten) VALUES ('jimmy', 'impossible', 'cheese', 'ketchup', true);
