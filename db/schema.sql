@@ -7,5 +7,6 @@ CREATE TABLE burgers(
     topping VARCHAR(30) NOT NULL,
     sauce VARCHAR(30) NOT NULL,
     eaten BOOLEAN DEFAULT false,
+    createdAt TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (id)
 );
